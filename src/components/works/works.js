@@ -79,7 +79,7 @@ const worksection = () => {
       <div className="works-section">
         <div className="works-header">
           <h2>✹ Works</h2>
-          <a href="#" className="view-all">view all</a>
+          <span className="view-all">view all</span>
         </div>
 
         {works.map((work, idx) => (
@@ -117,7 +117,7 @@ const worksection = () => {
 
     <div className="blog-header">
         <h2>✹ Blog</h2>
-        <a href="#" className="view-all">view all</a>
+        <span className="view-all">view all</span>
       </div>
 
       {blogs.map(blog => (

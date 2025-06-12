@@ -28,10 +28,10 @@ const Footer = () => {
       <div className="footer-bottom">
         <span>© Rehan Raihan - 2023</span>
         <div className="footer-links">
-          <a href="#">Dribbble</a>
-          <a href="#">Behance</a>
-          <a href="#">Twitter</a>
-          <a href="#">Instagram</a>
+          <span>Dribbble</span>
+          <span>Behance</span>
+          <span>Twitter</span>
+          <span>Instagram</span>
         </div>
       </div>
     </footer>

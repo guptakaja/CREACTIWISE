@@ -23,8 +23,11 @@ function App() {
       <section id="works">
         <Worksection />
       </section>
+      <section id="contact">
+        <Footer />
+      </section>
       
-      <Footer />
+      
     </div>
   );
 }

@@ -1,0 +1,65 @@
+/* Navbar.css */
+.navbar {
+  background-color: #010107;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  color: white;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+  object-fit: contain;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links li.active {
+  background-color: white;
+}
+
+.nav-links li.active a {
+  color: black;
+}
+
+.nav-links li:hover:not(.active) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.hire-button {
+  padding: 10px 25px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  border-radius: 999px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hire-button:hover {
+  background-color: white;
+  color: black;
+}

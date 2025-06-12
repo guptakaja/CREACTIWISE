@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap');
+
+.home-banner {
+  background-color: #010107;
+  color: white;
+  padding: 1px 100px 60px;
+  text-align: center;
+  font-family: 'Arial Black', sans-serif;
+}
+
+.heading-wrapper {
+  margin-bottom: 60px;
+}
+
+.hero-heading {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: 54px;
+  color: white;
+  text-align: center;
+  line-height: 1.4;
+  margin: 0 auto;
+  padding: 50px 20px;
+  background-color: #010107;
+}
+
+
+.inline-img img {
+  width: 74px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 20%;
+  vertical-align: middle;
+}
+
+.brand-row {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 40px;  */
+}
+
+.brand-logos {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.brand-logo {
+  height: 32px;
+  object-fit: contain;
+}
+
+
+
+.intro-text {
+  color: white;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
